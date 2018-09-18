@@ -6,12 +6,15 @@
   "scripts": {
     "test": "jest",
     "watch": "jest --watch *.js",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint ./src --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ajv": "^6.5.3",
+    "eslint": "^5.6.0",
     "jest": "^23.6.0",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0"
